@@ -1,5 +1,6 @@
-#基于Docker构建发布一个简单的Spring Boot应用
-##环境配置
+# 基于Docker构建发布一个简单的Spring Boot应用
+
+## 环境配置
 > * JDK1.8
 > * Maven
 > * IDEAJ
@@ -7,10 +8,10 @@
 > * Docker1.7+
 
 
-##搭建过程
-###1. 使用IDEAJ快速生成一个maven + Spring Boot项目
+## 搭建过程
+### 1. 使用IDEAJ快速生成一个maven + Spring Boot项目
 
-###2. 创建pom.xml
+### 2. 创建pom.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -86,13 +87,13 @@
 
 ```
 
-###3. 项目结构：
+### 3. 项目结构：
 
 ![标](pics\1.png)
 
 ![标题](pics\2.png)
 
-###4.简单的Springboot主应用程序代码
+### 4.简单的Springboot主应用程序代码
 
 `src/main/java/com/waylau/docker_spring_boot/Application.java:`
 
@@ -121,7 +122,7 @@ public class Application {
 
 ```
 
-###5. 项目打包
+### 5. 项目打包
 
 在项目根目录/docker-spring-boot
 
